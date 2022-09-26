@@ -1,0 +1,47 @@
+:root{
+    /* Primarios */
+    --primario: #274391;
+    --primario_luz: #41599C;
+    --primario_luz_clara: #6479B4;
+    --primario_sombra: #183174;
+    --primario_sombra_oscura: #091F5A;
+    /* Secundarios */
+    --secundario: #BCA6F7;
+    --secundario_luz: #E0D5FD;
+    --secundario_luz_clara: #ECE6FC;
+    --secundario_sombra: #9C7EEC;
+    --secundario_sombra_oscura: #7D5ADA;
+    /* Terciarios */
+    --terciario: #4E21C4;
+    --terciario_luz: #6943CB;
+    --terciario_luz_clara: #8768D7;
+    --terciario_sombra: #380EA5;
+    --terciario_sombra_oscura: #2B0A80;
+    /* Acentos */
+    --acento: #FA1E4D;
+    --acento_luz: #FB496F;
+    --acento_luz_clara: #FC7995;
+    --acento_sombra: #F20034;
+    --acento_sombra_oscura: #C7002B;
+
+    /* Falta escala de grises */
+
+    /* Tipografias */
+    --tipografia: 'Roboto', sans-serif;/*mmm no se si es esta*/
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+h1{
+    font-family: var(--tipografia);
+    font-size:50px;
+}
