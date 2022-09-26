@@ -31,7 +31,6 @@
 
 
 }
-
 *{
     margin: 0;
     padding: 0;
@@ -41,7 +40,69 @@
     outline: none;
 }
 
+                                        /*Barra de navegacion*/
+.navegacion button{
+    background:var(--primario);
+    color:var(--secundario);
+    width: 50px;
+    height: 50px;
+}
+.anchor-logo{
+    color: var(--secundario_luz_clara);
+    margin-top:0.4%;
+}
 h1{
     font-family: var(--tipografia);
     font-size:50px;
+}
+.btn-perfil{
+    background-color: var(--secundario_luz_clara);
+    border-radius: 100%;
+}
+
+.navegacion{
+ background-color:  var(--primario);
+    display: flex;
+    align-items: flex-start;
+}
+.barra-navegacion {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+                                                    /*Portada*/
+.portada{
+    background-color: var(--primario);
+}
+.portada img{
+    margin-left: 10%;
+    height: 35%;
+}
+
+                                                    /*Carrouseles*/
+.lista-imagenes img{
+    
+    width: 100%;
+    object-fit: cover;
+    border: solid rebeccapurple;
+    width: 200px;
+    height: 200px;
+}
+.lista-imagenes{
+    margin-bottom: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    display: flex;
+    overflow: auto;
+}
+.carrousel{
+    padding: 16px;
+}
+.card-juego{
+    transition: transform 2s;
+}
+.card-juego:hover{
+    transform: rotate3d(0,1,0,720deg)
 }
