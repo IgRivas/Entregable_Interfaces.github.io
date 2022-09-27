@@ -40,47 +40,81 @@
     outline: none;
 }
 
-                                        /*Barra de navegacion*/
-.navegacion button{
-    background:var(--primario);
-    color:var(--secundario);
-    width: 50px;
-    height: 50px;
-}
-.anchor-logo{
-    color: var(--secundario_luz_clara);
-    margin-top:0.4%;
-}
-h1{
-    font-family: var(--tipografia);
-    font-size:50px;
-}
-.btn-perfil{
-    background-color: var(--secundario_luz_clara);
-    border-radius: 100%;
+body{
+    background-color: var(--secundario_luz);
 }
 
-.navegacion{
- background-color:  var(--primario);
-    display: flex;
-    align-items: flex-start;
+h2{
+    font-family: var(--tipografia);
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 44.53px;
 }
-.barra-navegacion {
-    width: 100%;
+
+
+/*Barra de navegacion*/
+
+header nav.navegacion{
+    background-color: var(--primario_sombra_oscura);
     display: flex;
     justify-content: space-between;
-    align-content: flex-start;
+    border-bottom: 3px solid var(--primario_luz_clara);
+    height: 62px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
 }
-                                                    /*Portada*/
-.portada{
+
+div.btn-left button:nth-child(1), button:nth-child(2){
+    background:var(--primario_sombra_oscura);
+    color:var(--secundario_luz_clara);
+    /* width: 40px;
+    height:40px; */
+}
+
+nav.navegacion div.btn-left{
+    margin-left: 15px;
+}
+
+button.big span.material-symbols-outlined{
+   font-size: xx-large;
+}
+
+button.small span.material-symbols-outlined{
+    font-size: 25px;
+
+}
+
+.btn-perfil {
+    background:var(--secundario_luz_clara);
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+}
+
+button.btn-perfil span{
+    justify-content: center;
+    align-items: center;
+}
+
+.anchor-logo{
+    color: var(--secundario_luz_clara);
+    display: flex;
+}
+
+/*Portada*/
+/* .portada{
     background-color: var(--primario);
-}
+} */
 .portada img{
     margin-left: 10%;
     height: 35%;
+    /* le puse esto solo para separar y ver bien el nav */
+    margin-top: 100px;
 }
 
-                                                    /*Carrouseles*/
+/*Carrouseles*/
 .lista-imagenes img{
     
     width: 100%;

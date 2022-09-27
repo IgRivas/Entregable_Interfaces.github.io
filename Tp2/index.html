@@ -14,16 +14,23 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <nav class="navegacion">
-        <button type="button" ><span class="material-symbols-outlined">Menu</span></button>
-       <nav-bar class="barra-navegacion"> <button><span class="material-symbols-outlined">search</span></button>
-        <a class="anchor-logo">Ex.Juegos</a> <!--no se si es un p y falta el icono de la consola-->
-        <button class="btn-perfil"><span class="material-symbols-outlined">person</span></button><!--Esto seguro va dentro de un div para darle la forma redondeada-->
-    </nav-bar>
-    </nav>
+    <header>
+        <nav class="navegacion">
+            <div class="btn-left">
+                <button class="big" type="button"><span class="material-symbols-outlined">Menu</span></button>
+                <button class="small"><span class="material-symbols-outlined">search</span></button>
+            </div>
+            <a class="anchor-logo"><h2>Ex.Juegos</h2><img src="./Imagenes/logo.svg" alt=""> </a> <!--no se si es un p y falta el icono de la consola-->
+            <div> 
+                <button class="btn-perfil small"><span class="material-symbols-outlined">person</span></button><!--Esto seguro va dentro de un div para darle la forma redondeada-->
+            </div>
+        </nav>
+    </header>
+
     <div class="portada">
         <img src="Imagenes/portada-plants.jpg" alt="">
     </div>
+
     <div class="contenedor-carrouseles">
             <div class="lista-imagenes">
                 <img class="card-juego" src="Imagenes/juego1.jfif" alt="">
